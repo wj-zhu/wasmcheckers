@@ -294,4 +294,11 @@
 
     (call $setTurnOwner (i32.const 1)) ;; Black goes first
   )
+
+  (export "getPiece" (func $getPiece))  
+  (export "isCrowned" (func $isCrowned))
+  (export "initBoard" (func $initBoard))
+  (export "getTurnOwner" (func $getTurnOwner))
+  (export "move" (func $move))
+  (export "memory" (memory $mem))
 )
